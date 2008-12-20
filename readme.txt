@@ -5,7 +5,7 @@ Requires at least: 1.0
 Tested up to: 2.2
 Stable tag: 1.0
 
-Accept appointments from your clients 24x7x365 on your blog. Unlike other calendar tools, this plugin allows your customers to book appointments with you directly from your blog. This service is brought to you by Appointy.com and it's free! It has a very powerful and simple Ajax interface which allows one click booking. With just one click your clients can see your availability in the entire month. Try and find yourself.
+Accept appointments from your clients 24x7x365 on your blog. Cool Ajax interface which allows one click booking.
 
 == Description ==
 
