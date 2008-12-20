@@ -27,14 +27,6 @@ This section describes how to install the plugin and get it working.
 1. Preview of Appointy Calendar Plugin
 
 
-== Frequently Asked Questions ==
-
-Nothing...
-
 == Uninstall ==
 
 WARNING! The Uninstall link in Admin Page not have a confirm question, one click and you delete all contributes of Appointy Calendar Plugin
-
-== Upgrade ==
-
-Nothing...
