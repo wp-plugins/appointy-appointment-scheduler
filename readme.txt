@@ -1,4 +1,4 @@
-=== Appointy Calendar Plugin ===
+=== Appointment Scheduler - Appointy Plugin ===
 Contributors: XtremeHeights
 Tags: Appointy, Calendar, Appointy Calendar, Appointment Scheduler, Accept appointments online, Accept appointments on blog
 Requires at least: 1.0
