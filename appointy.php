@@ -26,6 +26,7 @@ function appointy_insert($content)
     {
       $content = str_replace('{APPOINTY}',appointy(),$content);
     }
+	//echo $content;
   return $content;
 }
 
@@ -34,7 +35,7 @@ function appointy()
    global  $userdata, $table_prefix, $wpdb, $appointy_installed;
     get_currentuserinfo();
   //  $user_login = $userdata->user_login;
-
+	$str='';
   if( !appointy_calendar_installed() )
 		$appointy_installed = appointy_calendar_install();
 		//echo "-->" . $appointy_installed;
@@ -53,32 +54,36 @@ function appointy()
 		
 	//}
 	?>
-	<div class="wrap">
+	
 	<?php
+    $str.='<div class="wrap">';
 	if( $code === null )
 	{
-		echo '<h4>You don\'t have appointy Calendar, please set code in Settings menu.</h4>';
+		$str.= '<h4>You don\'t have appointy Calendar, please set code in Settings menu.</h4>';
 	}
 	else
 	{
-		?>
-				
-		<center>
 		
-		<div id="CalendarDiv" style="position: relative;
-	right: 22px; padding-left:20px;">
-		<?php
-		 echo $code
+				
+		$str.='<center>';
+		
+		$str.='<div id="CalendarDiv">';
+		?><?php
+		 $str.= $code;
 		  ?>
-		 </div>
+		<?php 
+		$str.='</div>';
 		 
 		 
-		</center>
-	 <?php
+		$str.='</center>';
+	 
 	}
 	?>
-	</div>
 	<?php
+    $str.='</div>';
+	
+	return $str;
+	
 	
 }
 
