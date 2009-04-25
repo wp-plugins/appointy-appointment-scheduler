@@ -10,7 +10,7 @@ Author URI: www.appointy.com
 
 //define('WP_DEBUG', true);
 //error_reporting( E_ALL );
-define('APPOINTYPATH', get_option('siteurl').'/wp-content/plugins/appointy-scheduler');
+define('APPOINTYPATH', get_option('siteurl').'/wp-content/plugins/appointy-appointment-scheduler');
 
 $appointy_installed = true;
 $appointy_calendar_privileges = 0;
