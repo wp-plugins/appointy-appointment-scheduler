@@ -14,7 +14,8 @@ define('APPOINTYPATH', get_option('siteurl').'/wp-content/plugins/appointy-appoi
 
 $appointy_installed = true;
 $appointy_calendar_privileges = 0;
-
+$iFrameVal = "<iframe src=http://demo.appointy.com/?isGadget=1 width=710px height=550px scrolling=auto frameborder=0></iframe>";
+	
 add_action('init', 'appointy_calendar_init');
 add_action('widgets_init', 'widget_init_appointy');
 add_filter('the_content','appointy_insert');
@@ -116,7 +117,7 @@ function appointy_calendar_config_page()
 
 function appointy_calendar_main_page()
 {
-	global $appointy_default, $userdata, $table_prefix, $wpdb, $appointy_installed;
+	global $appointy_default, $userdata, $table_prefix, $wpdb, $appointy_installed, $iFrameVal;
     get_currentuserinfo();
     
     if( !appointy_calendar_installed() )
@@ -131,7 +132,7 @@ function appointy_calendar_main_page()
 	<div class="wrap">
 	<?php
 	$valid = true;
-	$iFrameVal = "<iframe src=http://demo.appointy.com/?isGadget=1 width=710px height=550px scrolling=auto frameborder=0></iframe>";
+
 	$queryS = "select * from ".$table_prefix."appointy_calendar limit 1";
 	$d1 = $wpdb->get_var( $queryS );
 	if( $d1 === null )
@@ -215,9 +216,9 @@ function appointy_calendar_main_page()
 	<p><b style="color:#000099">STEP &raquo; 3 You are done. Now manage Appointments and clients from admin area easily. </b><br />
 	  You are all done. Now test your blog. Appointy is easy to use and your clients would love scheduling with you. If you want to change your business hours, block days or times, add staff or service, approve appointment etc then click the link below and login to your powerful admin area on Appointy. <br />
 	  <br />
-	  <a href ="http://www.appointy.com/quickUserSignUp.aspx" target="_blank" class="button">&nbsp;&nbsp; Goto Admin Area &raquo;&nbsp;&nbsp;</a>		    </p>
+	  <a href =<?php echo get_admin_url(); ?> target="_blank" class="button">&nbsp;&nbsp; Goto Admin Area &raquo;&nbsp;&nbsp;</a>		    </p>
 	<p><br />
-		<p>Uninstall Appointy Plugin: <a href="admin.php?page=appointy-scheduler\appointy.php&ui=true">UNINSTALL</a></p>
+		<p>Uninstall Appointy Plugin: <a href="admin.php?page=appointy-appointment-scheduler\appointy.php&ui=true">UNINSTALL</a></p>
 	  <br />
 	  <br />
 	
@@ -238,6 +239,19 @@ function appointy_calendar_code( $code )
 	else
 		return true;
 }
+
+function get_admin_url()
+{
+ global $iFrameVal;
+ $adminURL = preg_match("/http:\/\/(.*).com/", $iFrameVal, $matches);
+ if ($adminURL = true)
+ {
+ $adminURL = htmlentities($matches['0']);
+ $adminURL = $adminURL .'/admin';
+ }
+ return $adminURL;
+}
+
 
 function appointy_calendar_installed()
 {
