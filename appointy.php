@@ -5,7 +5,7 @@ Plugin URI: http://www.appointy.com/wordpress/
 Description: This plugin shows your free time slot on your blog and allows you to book appointments with your clients 24x7x365. Very easy Ajax interface. Easy to setup and can be controlled completely from powerful admin area.
 Version: 1.1
 Author: Appointy, Inc	
-Author URI: www.appointy.com
+Author URI: http://www.appointy.com
 */
 
 //define('WP_DEBUG', true);
