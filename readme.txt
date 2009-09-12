@@ -12,6 +12,7 @@ Accept appointments from your clients 24x7x365 on your blog. Cool Ajax interface
 Accept appointments from your clients 24x7x365 on your blog. Unlike other calendar tools, this plugin allows your customers to book appointments with you directly from your blog. This service is brought to you by Appointy.com and it's free! It has a very powerful and simple Ajax interface which allows one click booking. With just one click your clients can see your availability in the entire month. Try and find yourself.
 
 Features:
+
 1. Sends SMS alert to client prior to appointment.
 2. 2 Way Sync with Google calendar.
 3. Supports multiple service booking.
