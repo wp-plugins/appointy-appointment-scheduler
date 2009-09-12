@@ -1,6 +1,6 @@
 === Appointment Scheduler - Appointy Plugin ===
 Contributors: Appointy Inc., USA
-Tags: Appointy, Calendar, Appointy Calendar, Appointment Scheduler, Accept appointments online, Accept appointments on blog
+Tags: Appointy, Calendar, Appointy Calendar, Appointment Scheduler, Accept appointments online, Accept appointments on blog, Event Scheduling, Class scheduling, Event Booking, Class Booking, Salon Scheduling, SPA scheduling
 Requires at least: 1.0
 Tested up to: 2.8
 Stable tag: 1.2
