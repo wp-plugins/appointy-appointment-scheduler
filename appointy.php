@@ -212,7 +212,7 @@ function appointy_calendar_main_page()
 	  <p><input type="submit" name="set" value="Update" /></p>
 	</form>
 	<p><b style="color:#000099">STEP &raquo; 2 Create a new page. </b><br />
-	  Goto &quot;<strong>Write</strong>&quot; --&gt; &quot;<strong>Write Page</strong>&quot;. Enter a<strong> Title</strong> e.g. &quot;Schedule an appointment&quot; (This would be shown as a link on your page. So make sure you chose the right title) and in <strong>Page Content </strong>write {APPOINTY} (including brackets). </p>
+	  Goto &quot;<strong>Write</strong>&quot; --&gt; &quot;<strong>Write Page</strong>&quot;. Enter a<strong> Title</strong> e.g. &quot;Schedule an appointment&quot; (This would be shown as a link on your page. So make sure you chose the right title) and in <strong>Page Content </strong>write {APPOINTY} (including brackets). See preview. <br /><br />Note: If it overlaps your sidebar then create a new template from your theme without sidebar and use it for Appointy page. <a href=http://blog.appointy.com/tip/solution-appointy-wordpress-plugin-overlays-sidebar target=_blank >Click here</a> to see step by step instructions.</p>
 	<p><b style="color:#000099">STEP &raquo; 3 You are done. Now manage Appointments and clients from admin area easily. </b><br />
 	  You are all done. Now test your blog. Appointy is easy to use and your clients would love scheduling with you. If you want to change your business hours, block days or times, add staff or service, approve appointment etc then click the link below and login to your powerful admin area on Appointy. <br />
 	  <br />
