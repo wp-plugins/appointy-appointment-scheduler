@@ -37,7 +37,8 @@ Note: If your calendar overlaps your sidebar then create a new template from you
 
 == Screenshots ==
 
-1. Preview of Appointy Calendar Plugin on your blog.
+1. Preview of Resource Booking calendar on your blog.
+2. Preview of Event Booking Calendar on your blog.
 
 
 == Uninstall ==
