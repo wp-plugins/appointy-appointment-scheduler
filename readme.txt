@@ -23,6 +23,8 @@ Features:
 8. Can be customized easily to fit any business needs.
 9. Can be used for service booking, resource booking, group booking and event booking.
 
+Check our Facebook Fan page and see what others say about us. <a href="http://www.facebook.com/pages/Appointy/142690834248" target="_blank">Click here</a>
+
 
 == Installation ==
 
