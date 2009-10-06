@@ -5,7 +5,7 @@ Requires at least: 1.0
 Tested up to: 2.8
 Stable tag: 1.2
 
-Accept appointments from your clients 24x7x365 on your blog. Cool Ajax interface which allows one click booking.
+Accept appointments from your clients 24x7x365 on your blog. Cool Ajax interface which allows one click booking. It's Free.
 
 == Description ==
 
