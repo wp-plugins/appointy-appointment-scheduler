@@ -2,7 +2,7 @@
 Contributors: Appointy Inc., USA
 Tags: Appointy, Calendar, Appointy Calendar, Appointment Scheduler, Accept appointments online, Accept appointments on blog, Event Scheduling, Class scheduling, Event Booking, Class Booking, Salon Scheduling, SPA scheduling
 Requires at least: 1.0
-Tested up to: 2.8
+Tested up to: 3.0
 Stable tag: 1.2
 
 Accept appointments from your clients 24x7x365 on your blog. Cool Ajax interface which allows one click booking. It's Free.

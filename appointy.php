@@ -3,7 +3,7 @@
 Plugin Name: Appointy - Appointment Scheduler.
 Plugin URI: http://www.appointy.com/wordpress/
 Description: This plugin shows your free time slot on your blog and allows you to book appointments with your clients 24x7x365. Very easy Ajax interface. Easy to setup and can be controlled completely from powerful admin area.
-Version: 1.5
+Version: 1.6
 Author: Appointy, Inc	
 Author URI: http://www.appointy.com
 */
@@ -216,7 +216,7 @@ function appointy_calendar_main_page()
 	<p><b style="color:#000099">STEP &raquo; 3 You are done. Now manage Appointments and clients from admin area easily. </b><br />
 	  You are all done. Now test your blog. Appointy is easy to use and your clients would love scheduling with you. If you want to change your business hours, block days or times, add staff or service, approve appointment etc then click the link below and login to your powerful admin area on Appointy. <br />
 	  <br />
-	  <a href =<?php echo get_admin_url(); ?> target="_blank" class="button">&nbsp;&nbsp; Goto Admin Area &raquo;&nbsp;&nbsp;</a>		    </p>
+	  <a href =<?php echo admin_get_admin_url(); ?> target="_blank" class="button">&nbsp;&nbsp; Goto Admin Area &raquo;&nbsp;&nbsp;</a>		    </p>
 	<p><br />
 		<p>Uninstall Appointy Plugin: <a href="admin.php?page=appointy-appointment-scheduler\appointy.php&ui=true">UNINSTALL</a></p>
 	  <br />
@@ -240,7 +240,7 @@ function appointy_calendar_code( $code )
 		return true;
 }
 
-function get_admin_url()
+function admin_get_admin_url()
 {
  global $iFrameVal;
  $adminURL = preg_match("/http:\/\/(.*).com/", $iFrameVal, $matches);
