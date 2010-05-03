@@ -216,7 +216,7 @@ function appointy_calendar_main_page()
 	<p><b style="color:#000099">STEP &raquo; 3 You are done. Now manage Appointments and clients from admin area easily. </b><br />
 	  You are all done. Now test your blog. Appointy is easy to use and your clients would love scheduling with you. If you want to change your business hours, block days or times, add staff or service, approve appointment etc then click the link below and login to your powerful admin area on Appointy. <br />
 	  <br />
-	  <a href =<?php echo admin_get_admin_url(); ?> target="_blank" class="button">&nbsp;&nbsp; Goto Admin Area &raquo;&nbsp;&nbsp;</a>		    </p>
+	  <a href =<?php echo appointy_get_admin_url(); ?> target="_blank" class="button">&nbsp;&nbsp; Goto Admin Area &raquo;&nbsp;&nbsp;</a>		    </p>
 	<p><br />
 		<p>Uninstall Appointy Plugin: <a href="admin.php?page=appointy-appointment-scheduler\appointy.php&ui=true">UNINSTALL</a></p>
 	  <br />
@@ -240,7 +240,7 @@ function appointy_calendar_code( $code )
 		return true;
 }
 
-function admin_get_admin_url()
+function appointy_get_admin_url()
 {
  global $iFrameVal;
  $adminURL = preg_match("/http:\/\/(.*).com/", $iFrameVal, $matches);
