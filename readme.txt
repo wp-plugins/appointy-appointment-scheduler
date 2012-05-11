@@ -2,28 +2,28 @@
 Contributors: Appointy Inc., USA
 Tags: Appointy, Calendar, Appointy Calendar, Appointment Scheduler, Accept appointments online, Accept appointments on blog, Event Scheduling, Class scheduling, Event Booking, Class Booking, Salon Scheduling, SPA scheduling
 Requires at least: 1.0
-Tested up to: 3.0
+Tested up to: 3.3.2
 Stable tag: 1.2
 
 Accept appointments from your clients 24x7x365 on your blog. Cool Ajax interface which allows one click booking. It's Free.
 
+
 == Description ==
 
-Accept appointments from your clients 24x7x365 on your blog. Unlike other calendar tools, this plugin allows your customers to book appointments with you directly from your blog. This service is brought to you by Appointy.com and it's free! It has a very powerful and simple Ajax interface which allows one click booking. With just one click your clients can see your availability in the entire month. Try and find yourself.
+Tested upto wordpress 3.3.2 and now used by 23000+ businesses worldwide.
 
-Features:
+Accept appointments from your clients 24x7x365 on your blog. Unlike other calendar tools, this plugin allows your customers to book appointments with you directly from your blog. This service is brought to you by Appointy.com and it's free! It has a very powerful and simple Ajax interface which allows one click booking. With just one click your clients can see your availability in the entire month. Try and find yourself. 
 
-1. Sends SMS alert to client prior to appointment.
-2. 2 Way Sync with Google calendar.
-3. Supports multiple service booking.
-4. Works at service level i.e. your staff can perform any service at any time on any weekday.
-5. Powerful marketing tool to promote your services socially.
-6. ICal support to sync outlook or any other iCal supporting application.
-7. Allows you to accept pre-payments from your clients.
-8. Can be customized easily to fit any business needs.
-9. Can be used for service booking, resource booking, group booking and event booking.
+The basic scheduling system is free and has no limit on bookings, staff and services.
 
-Check our Facebook Fan page and see what others say about us. <a href="http://www.facebook.com/pages/Appointy/142690834248" target="_blank">Click here</a>
+New:
+
+1. Your clients can now login using your wordpress credentials. Email us at contact@appointy.com for activating this feature.
+2. Your clients can now schedule you Mobile phones or tablets.
+3. Recurring booking and ability to select quantity is now available.
+4. Ability to create discounts, deals and offers. These can be promoted on social channels to fill your appointment books.
+
+Join us on Facebook to get frequent updates. <a href="http://www.facebook.com/appointy" target="_blank">Check our Facebook Page.</a>
 
 
 == Installation ==
