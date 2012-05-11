@@ -19,7 +19,7 @@ Features:
 
 1. Schedule Services, Staff, Event, Classes or Workshops.
 2. Admin, Staff, Manager or Client can schedule from PC, Tablet or Mobile.
-3. Your clients use your website login to schedule.
+3. OpenID login - Your clients can use your website login credentials to schedule.
 4. Back-to-back booking feature which allows your clients to select 2 or multiple services and book them in a row.
 5. Recurring Booking and Group bookings available.
 6. Intelligent staff scheduling feature which allows you to either keep all staff busy equally or allocate second staff when the first is completely full.
