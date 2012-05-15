@@ -1,29 +1,39 @@
 === Appointment Scheduler - Appointy Plugin ===
 Contributors: Appointy Inc., USA
-Tags: Appointy, Calendar, Appointy Calendar, Appointment Scheduler, Accept appointments online, Accept appointments on blog, Event Scheduling, Class scheduling, Event Booking, Class Booking, Salon Scheduling, SPA scheduling
+Tags: Booking Calendar, Appointment Scheduler, Accept appointments online, Event Scheduling, Class scheduling, Event Booking, Class Booking, Salon Scheduling, SPA scheduling
+
 Requires at least: 1.0
 Tested up to: 3.3.2
 Stable tag: 1.2
 
-Accept appointments from your clients 24x7x365 on your blog. Cool Ajax interface which allows one click booking. It's Free.
+Accept appointments from your clients 24x7x365 and wow your clients with our coolest interface. It's Free. 
 
 
 == Description ==
 
-Accept appointments from your clients 24x7x365 on your blog. Unlike other calendar tools, this plugin allows your customers to book appointments with you directly from your blog. This service is brought to you by Appointy.com and it's free! It has a very powerful and simple Ajax interface which allows one click booking. With just one click your clients can see your availability in the entire month. Try and find yourself. 
+Accept appointments from your clients 24x7x365 on your website or blog. Unlike other calendar tools, this plugin allows your customers to book appointments with you directly from your website. This service is brought to you by Appointy.com and it's free! It has a very powerful and simple Ajax interface which allows one click booking. With just oneclick your clients can see your availability in the entire month. Try and find yourself. 
 
-The basic scheduling system is free and has no limit on bookings, staff and services. It is currently used by 23000+ businesses in 78+ countries.
+Appointy is the most powerful scheduling software that has most features required by over 40+ verticals. It is currently used by 23000+ businesses in 78+ countries. No other wordpress scheduling plugin or scheduling software in the market can match us.
 
+You can use Appointy to:
+
+* Schedule services or staff (Salons, Spa, Acunpuncture, Dog Grommers, Massage Therapists, One-to-One coaching, Gym, Dentists, Doctors etc)
+* Schedule Classes (Yoga Classes, Dance Classes, Fitness Classes etc)
+* Schedule Resources (Balloon Rides, Real Estates or Agents, Hotel Rooms, Machines, Pools, Courts, Rentals etc)
+* Schedule Events (Single or Multiple occuring events)
+* Almost anything that accepts appointments over phone can be scheduled.
+
+The basic scheduling system is free and has no limit on bookings, staff and services. 
 
 Features:
 
-1. Schedule Services, Staff, Event, Classes or Workshops.
-2. Admin, Staff, Manager or Client can schedule from PC, Tablet or Mobile.
+1. Services, Staff, Event, Classes or Workshops - anything can be scheduled.
+2. PC, Tablet or Mobile for Admin, Staff, Manager or Client.
 3. OpenID login - Your clients can use your website login credentials to schedule.
 4. Back-to-back booking feature which allows your clients to select 2 or multiple services and book them in a row.
 5. Recurring Booking and Group bookings available.
 6. Intelligent staff scheduling feature which allows you to either keep all staff busy equally or allocate second staff when the first is completely full.
-7. Reduce no-show by sending email and text alerts prior to appointment.
+7. Email and Text alerts to reduce No-Show.
 8. 2 way Google calendar synchronization and ICal subscription feed available.
 9. Accept partial of full pre-payments from your clients at the time of booking.
 10. Fill your appointment book by creating discounts, deals or offers with a few clicks and promote them on social channel.   
