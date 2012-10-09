@@ -3,7 +3,7 @@ Contributors: Appointy Inc., USA
 Tags: Booking Calendar, Appointment Scheduler, Scheduling, Booking, Accept appointments online, Event Scheduling, Class scheduling, Event Booking, Class Booking, Salon Scheduling, SPA scheduling
 
 Requires at least: 1.0
-Tested up to: 3.3.2
+Tested up to: 3.4.2
 Stable tag: 1.2
 
 Accept appointments from your clients 24x7x365 and wow your clients with our coolest interface. It's Free. 
@@ -29,7 +29,7 @@ Features:
 
 1. Services, Staff, Event, Classes or Workshops - anything can be scheduled.
 2. PC, Tablet or Mobile for Admin, Staff, Manager or Client.
-3. OpenID login - Your clients can use your website login credentials to schedule.
+3. OpenID login - Your clients can use your website login credentials to schedule.  
 4. Back-to-back booking feature which allows your clients to select 2 or multiple services and book them in a row.
 5. Recurring Booking and Group bookings available.
 6. Intelligent staff scheduling feature which allows you to either keep all staff busy equally or allocate second staff when the first is completely full.
