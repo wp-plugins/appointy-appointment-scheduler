@@ -3,8 +3,8 @@ Contributors: Appointy Inc., USA
 Tags: Booking Calendar, Appointment Scheduler, Scheduling, Booking, Accept appointments online, Event Scheduling, Class scheduling, Event Booking, Class Booking, Salon Scheduling, SPA scheduling
 
 Requires at least: 1.0
-Tested up to: 3.4.2
-Stable tag: 1.2
+Tested up to: 3.5.1
+Stable tag: 1.3
 
 Accept appointments from your clients 24x7x365 and wow your clients with our coolest interface. It's Free. 
 
@@ -13,7 +13,9 @@ Accept appointments from your clients 24x7x365 and wow your clients with our coo
 
 Accept appointments from your clients 24x7x365 on your website or blog. Unlike other calendar tools, this plugin allows your customers to book appointments with you directly from your website. This service is brought to you by Appointy.com and it's free! It has a very powerful and simple Ajax interface which allows one click booking. With just oneclick your clients can see your availability in the entire month. Try and find yourself. 
 
-Appointy is the most powerful scheduling software that has most features required by over 40+ verticals. It is currently used by 23000+ businesses in 78+ countries. No other wordpress scheduling plugin or scheduling software in the market can match us.
+Appointy is the most powerful scheduling software that has most features required by over 100+ verticals. It is currently used by 39000+ businesses in 80+ countries. No other wordpress scheduling plugin or scheduling software in the market can match us. 
+
+Appointy has the most intuitive admin interface that has real-time notifications like Facebook or Linked-in which presents the most information upfront, saving lot of time worldwide.
 
 You can use Appointy to:
 
