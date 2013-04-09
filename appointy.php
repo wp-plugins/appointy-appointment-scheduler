@@ -14,7 +14,7 @@ define('APPOINTYPATH', get_option('siteurl').'/wp-content/plugins/appointy-appoi
 
 $appointy_installed = true;
 $appointy_calendar_privileges = 0;
-$iFrameVal = "<iframe src=http://demo.appointy.com/?isGadget=1 width=100%px height=550px scrolling=auto frameborder=0></iframe>";
+$iFrameVal = "<iframe src=http://demo.appointy.com/?isGadget=1 width=100% height=550px scrolling=auto frameborder=0></iframe>";
 
 //Needs an unbranded version? Upgrade to a PRO membership for just $19.99/month. Read more here http://help.appointy.com/entries/20165487-Can-you-unbrand-Appointy-for-me-
 
