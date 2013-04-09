@@ -3,7 +3,7 @@
 Plugin Name: Appointy - Appointment Scheduler.
 Plugin URI: http://www.appointy.com/wordpress/
 Description: This plugin shows your free time slot on your blog and allows you to book appointments with your clients 24x7x365. Very easy Ajax interface. Easy to setup and can be controlled completely from powerful admin area.
-Version: 1.9
+Version: 2.0
 Author: Appointy, Inc	
 Author URI: http://www.appointy.com
 */
@@ -14,12 +14,15 @@ define('APPOINTYPATH', get_option('siteurl').'/wp-content/plugins/appointy-appoi
 
 $appointy_installed = true;
 $appointy_calendar_privileges = 0;
-$iFrameVal = "<iframe src=http://demo.appointy.com/?isGadget=1 width=710px height=550px scrolling=auto frameborder=0></iframe>";
-	
+$iFrameVal = "<iframe src=http://demo.appointy.com/?isGadget=1 width=100%px height=550px scrolling=auto frameborder=0></iframe>";
+
+//Needs an unbranded version? Upgrade to a PRO membership for just $19.99/month. Read more here http://help.appointy.com/entries/20165487-Can-you-unbrand-Appointy-for-me-
+
+$poweredby = "<div style='font-size:11px;'>Powered by <a href='http://www.appointy.com/?ref=13' target = '_Blank' alt='Online Appointment Scheduling Software'>Appointy - Online Appointment Scheduling Software</a></div>";
+
 add_action('init', 'appointy_calendar_init');
 add_action('widgets_init', 'widget_init_appointy');
 add_filter('the_content','appointy_insert');
-
 
 function appointy_insert($content)
 {
@@ -33,7 +36,7 @@ function appointy_insert($content)
 
 function appointy()
 {
-   global  $userdata, $table_prefix, $wpdb, $appointy_installed;
+   global  $userdata, $table_prefix, $wpdb, $appointy_installed, $poweredby;
     get_currentuserinfo();
   //  $user_login = $userdata->user_login;
 	$str='';
@@ -52,6 +55,7 @@ function appointy()
 		";
 		//echo $query;
 		$code = $wpdb->get_var( $query );
+		$code .= $poweredby;
 		
 	//}
 	?>
@@ -88,15 +92,60 @@ function appointy()
 	
 }
 
+
+// ************Code to render Appointy button in the sidebar*****************
+// ************START***********************
+
 function widget_init_appointy() {
-  if (!function_exists('register_sidebar_widget'))
+  if (!function_exists('wp_register_sidebar_widget'))
   	return;
-  register_sidebar_widget('Appointy','widget_calendar_appointy');
+	wp_register_sidebar_widget(
+    '108',        // your unique widget id
+    'Appointy',          // widget name
+    'widget_calendar_appointy',  // callback function
+    array(                  // options
+        'description' => 'It places a cool schedule now button on the sidebar of your website.'
+    ));
 }
 
-function widget_calendar_appointy() {
-	echo "appointy";
-	}
+function widget_calendar_appointy($args) {
+   extract($args);
+   echo $before_widget;
+   echo $before_title . 'Schedule Now' . $after_title;
+   echo '<a href="' .appointy_widget_init(). '" target="_blank"><img src="http://appointy.com/Images/scheduleme.png" alt="" border="0" /></a>';
+   echo $after_widget;
+ }
+
+function appointy_widget_init() {
+	global $table_prefix, $wpdb;
+	if( !appointy_calendar_install() )
+		{
+			echo "PLUGIN NOT CORRECTLY INSTALLED, PLEASE CHECK ALL INSTALL PROCEDURE!";
+			return;
+		}
+			$query = "
+				SELECT code AS code
+				FROM ".$table_prefix."appointy_calendar	LIMIT 1
+			";
+			$code = $wpdb->get_var( $query );
+			return appointy_get_booking_url($code);
+			
+}
+
+	 
+function appointy_get_booking_url($codeURL)
+{
+ $bookingURL = preg_match("/http:\/\/(.*).com/", $codeURL, $matches);
+ if ($bookingURL = true)
+ {
+ $bookingURL = htmlentities($matches['0']);
+ }
+ return $bookingURL;
+}
+
+
+//******************* WIDGET CODE ENDS HERE **************************
+
 
 function appointy_calendar_init()
 {		
@@ -161,6 +210,7 @@ function appointy_calendar_main_page()
 			$query ="Update ".$table_prefix."appointy_calendar set code = '".$_POST["code"]."'";// where calendar_id = " & $d1 ->calendar_id;
 			$wpdb->query( $query );
 			$iFrameVal = str_replace("\\", "", ($_POST["code"]));
+			
 		}
 	}
 	
@@ -251,6 +301,7 @@ function appointy_get_admin_url()
  }
  return $adminURL;
 }
+
 
 
 function appointy_calendar_installed()
