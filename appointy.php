@@ -18,7 +18,7 @@ $iFrameVal = "<iframe src=http://demo.appointy.com/?isGadget=1 width=100% height
 
 //Needs an unbranded version? Upgrade to a PRO membership for just $19.99/month. Read more here http://help.appointy.com/entries/20165487-Can-you-unbrand-Appointy-for-me-
 
-$poweredby = "<div style='font-size:11px;'>Powered by <a href='http://www.appointy.com/?ref=13' target = '_Blank' alt='Online Appointment Scheduling Software'>Appointy - Online Appointment Scheduling Software</a></div>";
+$poweredby = "<div style='font-size:11px;'>Powered by <a href='http://www.appointy.com/?isGadget=2' target = '_Blank' alt='Online Appointment Scheduling Software'>Appointy - Online Appointment Scheduling Software</a></div>";
 
 add_action('init', 'appointy_calendar_init');
 add_action('widgets_init', 'widget_init_appointy');
@@ -246,7 +246,7 @@ function appointy_calendar_main_page()
 
 	<span style="float:left;width:400px;padding-left:20px;">
 	<p><b>Don't have an account on Appointy?</b></p>
-	<a href ="http://www.appointy.com/quickUserSignUp.aspx" target="_blank" class="button">&nbsp;&nbsp;Register Now. It's Free &raquo;&nbsp;&nbsp;</a><br />
+	<a href ="http://www.appointy.com/newweb/quickUserSignUp.aspx?isgadget=2" target="_blank" class="button">&nbsp;&nbsp;Register Now. It's Free &raquo;&nbsp;&nbsp;</a><br />
 	<br />
 	</span></div>	
 	
