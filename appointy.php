@@ -3,8 +3,8 @@
 Plugin Name: Appointy - Appointment Scheduler.
 Plugin URI: http://www.appointy.com/wordpress/
 Description: This plugin shows your free time slot on your blog and allows you to book appointments with your clients 24x7x365. Very easy Ajax interface. Easy to setup and can be controlled completely from powerful admin area.
-Version: 2.0
-Author: Appointy, Inc	
+Version: 2.1
+Author: Appointy.com | Nemesh Singh	
 Author URI: http://www.appointy.com
 */
 
