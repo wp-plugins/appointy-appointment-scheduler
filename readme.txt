@@ -1,4 +1,4 @@
-=== Wordpress Appointment Booking & Online Scheduling Plugin by Appointy ===
+=== Appointment Booking & Online Scheduling Plugin by Appointy ===
 Contributors: Appointy.com
 Tags: Appointment, Booking Calendar, Appointment Scheduler, Scheduling, Booking, Accept appointments online, Event Scheduling, Class scheduling, Event Booking, Class Booking, Salon Scheduling, SPA scheduling
 
