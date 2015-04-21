@@ -1,6 +1,6 @@
-=== Booking Calendar & Appointment Scheduler ===
+=== Wordpress Appointment Booking & Online Scheduling Plugin by Appointy ===
 Contributors: Appointy.com
-Tags: Booking Calendar, Appointment Scheduler, Scheduling, Booking, Accept appointments online, Event Scheduling, Class scheduling, Event Booking, Class Booking, Salon Scheduling, SPA scheduling
+Tags: Appointment, Booking Calendar, Appointment Scheduler, Scheduling, Booking, Accept appointments online, Event Scheduling, Class scheduling, Event Booking, Class Booking, Salon Scheduling, SPA scheduling
 
 Requires at least: 1.0
 Tested up to: 4.1.1
@@ -23,7 +23,7 @@ You can use Appointy to:
 * Schedule Events (Single or Multiple occuring events)
 * Almost anything that accepts appointments over phone can be scheduled.
 
-The basic scheduling system is free and has no limit on bookings, staff and services. 
+The basic scheduling system is free and has no limit on bookings. 
 
 Features:
 
