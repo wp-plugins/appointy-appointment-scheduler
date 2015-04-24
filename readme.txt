@@ -3,7 +3,7 @@ Contributors: Appointy.com
 Tags: Appointment, Booking Calendar, Appointment Scheduler, Scheduling, Booking, Accept appointments online, Event Scheduling, Class scheduling, Event Booking, Class Booking, Salon Scheduling, SPA scheduling
 
 Requires at least: 1.0
-Tested up to: 4.1.1
+Tested up to: 4.2
 Stable tag: 1.2
 
 Accept appointments from your clients 24x7x365 and wow your clients with our coolest interface. It's Free. 
