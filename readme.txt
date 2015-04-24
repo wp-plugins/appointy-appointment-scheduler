@@ -6,44 +6,45 @@ Requires at least: 1.0
 Tested up to: 4.2
 Stable tag: 1.2
 
-Accept appointments from your clients 24x7x365 and wow your clients with our coolest interface. It's Free. 
+Accept appointments from your clients anytime, anywhere and wow your customers. It's Free! 
 
 
 == Description ==
 
-Accept appointments from your clients 24x7x365 on your website or blog. Unlike other calendar tools, this plugin allows your customers to book appointments with you directly from your website. This service is brought to you by Appointy.com and it's free! It has a very powerful and simple Ajax interface which allows one click booking. With just oneclick your clients can see your availability in the entire month. Try and find yourself. 
+Discover the easiest way to grow your business with Appointy. Appointy is an all-in-one online appointment scheduling and is trusted by 65,000+ customers worldwide making us one of the largest appointment scheduling solution in the world. Appointy integrates seamlessly with your Wordpress website and helps convert visitors into customers. Customers can schedule themselves, anywhere, anytime at their convenience. Appointy also comes with a number of additional tools such as business analytics, customer analytics, email marketing etc. that will help you manage your business like never before.
 
-Appointy is the most powerful scheduling software that has most features required by over 40+ verticals. It is currently used by 23000+ businesses in 78+ countries. No other wordpress scheduling plugin or scheduling software in the market can match us.
+Our online appointment scheduling software has everything you need to grow and manage your business in one easy-to-use and powerful user interface. Our basic plan is free for life, and comes with unlimited bookings. 
 
 You can use Appointy to:
 
-* Schedule services or staff (Salons, Spa, Acunpuncture, Dog Grommers, Massage Therapists, One-to-One coaching, Gym, Dentists, Doctors etc)
-* Schedule Classes (Yoga Classes, Dance Classes, Fitness Classes etc)
-* Schedule Resources (Balloon Rides, Real Estates or Agents, Hotel Rooms, Machines, Pools, Courts, Rentals etc)
-* Schedule Events (Single or Multiple occuring events)
-* Almost anything that accepts appointments over phone can be scheduled.
+* Appointment Scheduling: Schedule services or staff (Salons, Spa, Acupuncture, Dog Groomers, Massage Therapists, One-to-One coaching, Gym, Dentists, Doctors etc)
+* Class Scheduling: Schedule Classes (Yoga Classes, Dance Classes, Fitness Classes etc)
+* Resource Scheduling: Schedule Resources (Balloon Rides, Real Estates or Agents, Hotel Rooms, Machines, Pools, Courts, Rentals etc)
+* Event Scheduling: Schedule Events (Single or Multiple occurring events)
+* Almost any other business that accepts appointments
 
 The basic appointment scheduling system is free and has no limit on bookings. 
 
 Features:
 
 1. Services, Staff, Event, Classes or Workshops - anything can be scheduled.
-2. PC, Tablet or Mobile for Admin, Staff, Manager or Client.
-3. Google & Facebook Login - Your clients will not need to enter their login details to schedule with you. 
-4. Back-to-back booking feature which allows your clients to select 2 or multiple services and book them in a row.
-5. Recurring Booking and Group bookings available.
-6. Intelligent staff scheduling feature which allows you to either keep all staff busy equally or allocate second staff when the first is completely full.
-7. Email and Text alerts to reduce No-Show.
-8. 2 way Google calendar synchronization and ICal subscription feed available.
-9. Accept partial of full pre-payments from your clients at the time of booking.
-10. Fill your appointment book by creating discounts, deals or offers with a few clicks and promote them on social channel.   
-11. Flexible Business Hours to support almost any type of Business.
+2. PC, Tablet or Mobile access for Admin, Staff, Manager or Client.
+3. Automatic 2 way Google Calendar sync
+4. Google & Facebook Login - Your clients will not need to create specific login details to schedule with you.
+5. Back-to-back booking feature which allows your clients to select 2 or multiple services and book them in a row.
+6. Recurring Booking and Group bookings available.
+7. Intelligent staff scheduling feature which allows you to either keep all staff busy equally or allocate the second staff only when the first is completely full.
+8. Email and SMS reminders to reduce no-shows.
+9. Accept pre-payments from your clients at the time of booking (integrated payment gateway).
+10. Create discounts, deals or offers with a few clicks and promote them on social channels.
+11. Flexible business hours to support almost any type of business.
 12. Customize emails that are sent to your customers.
-13. Highly inituitive user interface. 
-    - With a single click your customers can see your availability in the entire month. 
-    - Drag & Drop appointments from one day or staff to another to reschedule.
+		- Highly intuitive user interface.
+		- With a single click your customers can see your availability in the entire month.
+13. Drag & Drop appointments from one day or staff to another to reschedule.
 14. Powerful reports to analyze your Business.
-15. Strike Out booked times, precision scheduling, force scheduling a time before opening other free times, set appointment lead and cancellation times and much more that will not only fulfill your business needs but also help you in growing your business exponentially.
+15. Strikeout booked times, Open irregular times or open times depending on other time slots getting filled, set appointment lead and cancellation times and much more that will not only fulfill your business needs but also help you grow your business exponentially.
+
 
 
 Join us on Facebook to get frequent updates. <a href="http://www.facebook.com/appointy" target="_blank">Check our Facebook Page.</a>
