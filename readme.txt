@@ -23,7 +23,7 @@ You can use Appointy to:
 * Schedule Events (Single or Multiple occuring events)
 * Almost anything that accepts appointments over phone can be scheduled.
 
-The basic scheduling system is free and has no limit on bookings. 
+The basic appointment scheduling system is free and has no limit on bookings. 
 
 Features:
 
